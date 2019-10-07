@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <style>
+        .boton{
+            background: greenyellow;
+            border-radius: 10px;
+            width: 15%;
+            height: 60%;
+        }
+        .boton:hover{
+            background:#FAF725 ;
+        }
+        #pantalla{
+            background: rgb(0, 174, 255);
+            color: antiquewhite;
+            height: 20px;
+            width: 50%;
+        }
+        .reset:hover{
+            background: #A625FA;
+        }
+        .reset{
+            background: rgb(230, 135, 11);
+            padding: 5px;
+        }
+
+        .contenedor{
+            width: 50%;
+
+        }
+        form{
+            border: 2px solid #345789;
+            padding: 10px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Calculadora</h2>
+    <form action="">
+        
+            <input type="text" name="" id="pantalla" readonly><br>
+            <input type="button" value="7" class="boton" id="boton1">
+            <input type="button" value="8" class="boton" id="boton2">
+            <input type="button" value="9" class="boton" id="boton3">
+            <input type="reset" value="Borrar" class="reset"><br>
+            <input type="button" value="4" class="boton" id="boton4">
+            <input type="button" value="5" class="boton" id="boton5">
+            <input type="button" value="6" class="boton" id="boton6">
+            <input type="button" value="*" class="boton" id="boton7">
+            <input type="button" value="/" class="boton" id="boton8"><br>
+            <input type="button" value="1" class="boton" id="boton9">
+            <input type="button" value="2" class="boton" id="boton10">
+            <input type="button" value="3" class="boton" id="boton11">
+            <input type="button" value="+" class="boton"id="boton12">
+            <input type="button" value="-" class="boton" id="boton13"><br>
+            <input type="button" value="0" class="boton" id="boton14">
+            <input type="button" value="EXE" class="boton" id="boton15">
+            <input type="button" value="." class="boton" id="boton15">
+            <input type="button" value="^" class="boton" id="boton16">
+            <input type="button" value="MOD" class="boton" id="boton17">
+
+        
+    </form>
+</div>
+    <script src="calculadora_.js"></script>
+</body>
+</html>
